@@ -39,11 +39,27 @@ dataset_blood_group/
 
 Each subfolder contains fingerprint images for the respective blood group.
 
+**Sample Images:**
+
+![Sample Images](sample_images.png)
+
+**Data Distribution:**
+
+![Data Distribution](data_distribution.png)
+
+**Detailed Dataset Distribution:**
+
+![Detailed Dataset Distribution](dataset_distribution_detailed.png)
+
 ## Model
 
 - The model architecture is defined and trained using Keras.
 - The trained model is saved as `blood_group_model.h5`.
 - Model architecture and training history visualizations are provided.
+
+**Model Architecture:**
+
+![Model Architecture](model_architecture.png)
 
 ## Installation
 
@@ -102,12 +118,17 @@ Replace `path_to_image.BMP` with the path to your fingerprint image.
 
 ## Results & Visualizations
 
-- **Model Architecture:** `model_architecture.png`
-- **Training History:** `training_history.png`
-- **Data Distribution:** `data_distribution.png`, `dataset_distribution_detailed.png`
-- **Sample Images:** `sample_images.png`
-- **Prediction Example:** `prediction_result.png`
-- **Image Quality Analysis:** `image_quality_analysis.png`
+### Training History
+
+![Training History](training_history.png)
+
+### Prediction Example
+
+![Prediction Result](prediction_result.png)
+
+### Image Quality Analysis
+
+![Image Quality Analysis](image_quality_analysis.png)
 
 ## License
 
